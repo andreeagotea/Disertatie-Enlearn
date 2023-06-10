@@ -1,0 +1,16 @@
+export const CONSTANTS = {
+  WAIT_TIME_FOR_PAGE_TO_LOAD: 3,
+  WAIT_TIME_FOR_ELEMENT_TO_BE_VISIBLE: 5,
+  WAIT_TIME_TO_LOAD_PAGE: 1,
+  APP_URL: process.env.APP_URL || 'http://localhost:3000',
+  USER_NAME: 'Andreea',
+  USER_EMAIL: 'goteaandreea6@yahoo.com',
+  USER_PASSWORD: 'asdf1234',
+  ADMIN_EMAIL: 'goteaandreea@gmail.com',
+  ADMIN_PASSWORD: 'gotea1999',
+  TEST_NAME: 'TestTest##3', 
+  LESSON_NAME: 'ALFABET',
+  LESSON_DESCRIPTION: 'Lorem Ipsum is simply dummy',
+  VIDEO_URL: 'https://www.youtube.com/watch?v=ygJ_pUCxaeU',
+  UPLOAD_IMAGE_PATH: 'testdata/alfabet.jpeg',
+}

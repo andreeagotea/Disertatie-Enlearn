@@ -1,0 +1,562 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-05-02T14:48:18.652Z",
+    "end": "2023-05-02T14:48:53.923Z",
+    "duration": 35271,
+    "testsRegistered": 6,
+    "passPercent": 16.666666666666664,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 5,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "6442e13c-aa78-4e7a-b173-b43729285699",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5cb740ee-4f85-4ec3-b566-39d5f090f880",
+          "title": "Create account with email",
+          "fullFile": "/Users/andreeagotea/Desktop/DISERTATIE/testing-framework/tests/CreateAccount Test/createAccount.ts",
+          "file": "/tests/CreateAccount Test/createAccount.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Create account with email \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "eb742f76-9bf2-40b9-8056-8812571c9d8d",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Create account with email \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "e9061693-ab54-446d-9b02-223002dca2bc",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Create account with email \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "2c97d322-b958-4eb7-a8b8-2df3637da3ef",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "Create account with email \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "6bc15285-1e65-4127-b2f2-e1340e80781c",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Create account with email",
+              "fullTitle": "Create account with email: Create account with email",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "BasePage, CreateAccountSteps }) => {\n    BasePage.goto();\n    CreateAccountSteps.clickCreateAccountButton(constants_1.CONSTANTS.USER_NAME, constants_1.CONSTANTS.USER_EMAIL, constants_1.CONSTANTS.USER_PASSWORD, constants_1.CONSTANTS.USER_PASSWORD);",
+              "err": {},
+              "uuid": "6610bd0a-3a1a-4d22-910f-b81bb365212d",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "6610bd0a-3a1a-4d22-910f-b81bb365212d"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "197fcdaa-650e-4376-a1b9-04cfd20f5526",
+          "title": "Login Tests",
+          "fullFile": "/Users/andreeagotea/Desktop/DISERTATIE/testing-framework/tests/Login&Logout Tests/login.ts",
+          "file": "/tests/Login&Logout Tests/login.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Login Tests \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "b714c05a-3a5f-454f-9e51-6b03367edd0e",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Login Tests \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "194c527f-d174-4d2a-ac00-2893c5fd75e5",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Login Tests \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "4e6f5000-506c-47bb-8ff0-a41c63ea34c8",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "Login Tests \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "eb29bf72-4e8c-41f2-b0f7-41698f6e4f24",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Login as user with email",
+              "fullTitle": "Login Tests: Login as user with email",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "BasePage, LoginSteps }) => {\n    BasePage.goto();\n    LoginSteps.loginUser(constants_1.CONSTANTS.USER_EMAIL, constants_1.CONSTANTS.USER_PASSWORD);",
+              "err": {},
+              "uuid": "2d04a705-092b-40b0-889a-44c62d160645",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Login as admin with email",
+              "fullTitle": "Login Tests: Login as admin with email",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "BasePage, LoginSteps }) => {\n    BasePage.goto();\n    LoginSteps.loginAdmin(constants_1.CONSTANTS.ADMIN_EMAIL, constants_1.CONSTANTS.ADMIN_PASSWORD);",
+              "err": {},
+              "uuid": "9b5d4883-d568-47a1-8b97-4fe4cc2ff82e",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "2d04a705-092b-40b0-889a-44c62d160645",
+            "9b5d4883-d568-47a1-8b97-4fe4cc2ff82e"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "b242aee9-ea9f-448f-bd97-a77891ee311d",
+          "title": "Logout Tests",
+          "fullFile": "/Users/andreeagotea/Desktop/DISERTATIE/testing-framework/tests/Login&Logout Tests/logout.ts",
+          "file": "/tests/Login&Logout Tests/logout.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Logout Tests \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "6ec1b028-9f3e-4f25-9766-353371f57aee",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Logout Tests \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "72363d46-3ab3-4ee6-a12f-be6c01e83b16",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Logout Tests \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "df6c7d6e-3413-43d9-acd6-5f342054aaa5",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "Logout Tests \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "bc9243c6-a38f-4035-be8a-5de57265c082",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Logout",
+              "fullTitle": "Logout Tests: Logout",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginSteps, BaseSteps, BasePage }) => {\n    BasePage.goto();\n    LoginSteps.loginUser(constants_1.CONSTANTS.USER_EMAIL, constants_1.CONSTANTS.USER_PASSWORD);\n    BaseSteps.logout();",
+              "err": {},
+              "uuid": "87e2b14d-804b-4b17-9f33-e730b4b45b4a",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "87e2b14d-804b-4b17-9f33-e730b4b45b4a"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "fc90c6ec-95f7-47b2-b9b1-845a4a4e9b5f",
+          "title": "Create Test",
+          "fullFile": "/Users/andreeagotea/Desktop/DISERTATIE/testing-framework/tests/Tests/createTest.ts",
+          "file": "/tests/Tests/createTest.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Create Test\"",
+              "fullTitle": "Create Test \"before all\" hook: codeceptjs.beforeSuite in \"Create Test\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "4aeb3733-6d87-4a1c-98a4-ffd76936cf2b",
+              "parentUUID": "fc90c6ec-95f7-47b2-b9b1-845a4a4e9b5f",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Create Test\"",
+              "fullTitle": "Create Test \"before each\" hook: codeceptjs.before in \"Create Test\"",
+              "timedOut": false,
+              "duration": 7312,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "b1806df5-0cf3-44dd-8e9d-388dcaa527fe",
+              "parentUUID": "fc90c6ec-95f7-47b2-b9b1-845a4a4e9b5f",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Create Test\"",
+              "fullTitle": "Create Test \"after all\" hook: codeceptjs.afterSuite in \"Create Test\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "18c2aeef-6ff3-4b8f-913d-42ea4cca2fa0",
+              "parentUUID": "fc90c6ec-95f7-47b2-b9b1-845a4a4e9b5f",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Create Test\"",
+              "fullTitle": "Create Test \"after each\" hook: finalize codeceptjs in \"Create Test\"",
+              "timedOut": false,
+              "duration": 63,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "d2cd5485-4dda-4e90-bac2-39d327931bb4",
+              "parentUUID": "fc90c6ec-95f7-47b2-b9b1-845a4a4e9b5f",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Create Test",
+              "fullTitle": "Create Test: Create Test",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "BaseSteps, BasePage, LoginSteps, CreateTestSteps }) => {\n    BasePage.goto();\n    LoginSteps.loginAdmin(constants_1.CONSTANTS.ADMIN_EMAIL, constants_1.CONSTANTS.ADMIN_PASSWORD);\n    BaseSteps.goToAdminPage();\n    CreateTestSteps.createTest(constants_1.CONSTANTS.TEST_NAME, \"Blalalalalaala\");",
+              "err": {},
+              "uuid": "bf2a758c-5cbc-47a6-a89d-3c5509e0c8a5",
+              "parentUUID": "fc90c6ec-95f7-47b2-b9b1-845a4a4e9b5f",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Add Questions and Answers for Tests",
+              "fullTitle": "Create Test: Add Questions and Answers for Tests",
+              "timedOut": false,
+              "duration": 27889,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "BaseSteps, BasePage, LoginSteps, CreateTestSteps }) => {\n    BasePage.goto();\n    LoginSteps.loginAdmin(constants_1.CONSTANTS.ADMIN_EMAIL, constants_1.CONSTANTS.ADMIN_PASSWORD);\n    BaseSteps.goToAdminPage();\n    CreateTestSteps.createTest(constants_1.CONSTANTS.TEST_NAME, \"Blalalalalaala\");\n    CreateTestSteps.clickAddQuestionsAnswers(constants_1.CONSTANTS.TEST_NAME);\n    CreateTestSteps.addQuestionAndAnswer(\"1\", \"Care este AAAA...?\", \"A\", \"B\", \"C\", \"D\", \"3\");\n    CreateTestSteps.addQuestionAndAnswer(\"2\", \"Care este BBBB...?\", \"AB\", \"B\", \"DC\", \"AD\", \"1\");\n    CreateTestSteps.addQuestionAndAnswer(\"3\", \"Care este CCCC...?\", \"BA\", \"B\", \"C\", \"AAAD\", \"2\");\n    CreateTestSteps.addQuestionAndAnswer(\"4\", \"Care este DDDD...?\", \"CA\", \"B\", \"C\", \"AD\", \"4\");\n    CreateTestSteps.addQuestionAndAnswer(\"5\", \"Care este EEEE...?\", \"AD\", \"DB\", \"C\", \"D\", \"1\");",
+              "err": {},
+              "uuid": "f1651666-72d3-45d9-a89d-727749851f30",
+              "parentUUID": "fc90c6ec-95f7-47b2-b9b1-845a4a4e9b5f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f1651666-72d3-45d9-a89d-727749851f30"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "bf2a758c-5cbc-47a6-a89d-3c5509e0c8a5"
+          ],
+          "duration": 27889,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "mocha-junit-reporter": {
+          "stdout": "-",
+          "options": {
+            "mochaFile": "./output/result.xml"
+          }
+        },
+        "codeceptjs/lib/cli": {
+          "stdout": "-"
+        }
+      },
+      "version": "6.2.0"
+    }
+  }
+}
